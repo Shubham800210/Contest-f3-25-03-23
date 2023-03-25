@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+  background: linear-gradient(to right, #feac5e, #c779d0, #4bc0c8); 
+ 
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn button{
+    margin-top: 5px;
+    padding: 10px ;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 9px;
+    background:linear-gradient(to right, #e7b6ff, #f90010);
+    
+}
+.btn button:hover{
+    background: rgb(223, 144, 217);
+}
+
+
+.map{
+   height: 50%;
+    width: 85%;
+   margin-top: 10px;
+   margin-left: 190px;
+   
+}
+
+@media screen  and (max-width:650px){
+    .btn{
+        display: flex;
+        flex-direction: column;
+    }
+    .map{
+        margin-top: 5px;
+        margin-left: 70px;
+        width: 84%;
+    }
+    
+}
+@media screen  and (max-width:900px){
+    .map{
+        margin-top: 10px;
+        margin-left: 90px;
+        width: 89%;
+    }
+    
+}
+
+    
